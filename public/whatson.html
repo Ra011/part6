@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Raphael Attfield's page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="whatson.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <div id="hamburger" class="hide-large">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="nav-items" class="hide-small">
+                <li><a href="index.html"><i class="fa fa-fw fa-home"></i> <b>Home</b></a></li>
+                <li><a href="about.html"><i class="fa fa-fw fa-address-card"></i> <b>About Us</b></a></li>
+                <li><a href="menu.html"><i class="fa fa-fw fa-book"></i> <b>Menu</b></a></li>
+                <li><a href="bookings.html"><i class="fa fa-fw fa-user"></i> <b>Bookings</b></a></li>
+                <li><a href="#"><i class="fa fa-fw fa-music"></i> <b>Whats on</b></a></li>
+                <li><a href="contact.html"><i class="fa fa-fw fa-envelope"></i> <b>Contact Us</b></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="background-whatson">
+            <section class="content-box-medium">
+                <h1 class="whatson-header1">What's on at the Mossy Well</h1>
+
+                <div id="whatson-list"></div>
+                <button id="button-event-show" type="button"><b>ADD AN EVENT</b></button>
+
+
+                <div id="show-hide-add-event" class="hide-event-form">
+                    <h3 id="booking-header">ADD AN EVENT</h3>
+                    <section class=" input-fields">
+                        <form id="event_form">
+                            <input type="hidden" id="event_id" name="_id" value="-1" required />
+                            <p>
+                                <label for="event_name"> Name:</label>
+                                <input type="text" id="event_name" name="event_name" required />
+                            </p>
+                            <p>
+                                <label for="event_date"> Date:</label>
+                                <input type="date" id="event_date" name="event_date" required />
+                            </p>
+                            <p>
+                                <label for="event_description"> Event description:</label>
+                                <input type="text" id="event_description" name="event_description" required />
+                            </p>
+                            <p>
+                                <label for="img"> Event Image:</label>
+                                <input type="file" id="img" name="img" required />
+                            </p>
+                            <p>
+                                <button type="submit" id="button-main-area"><b>Send Message</b></button>
+                            </p>
+                        </form>
+                        <section id="results" class="hidden">
+                            <h3>Event added</h3>
+
+                        </section>
+                    </section>
+                </div>
+            </section>
+        </section>
+    </main>
+
+
+    <footer>
+        <hr class="footer-bar footer-bar1">
+        <hr class="footer-bar footer-bar2">
+        <div class="columns">
+            <section class="footer-section col1of5 footer-section-add-margin footer-center-vertical">
+                <p>The Village,</p>
+                <p>258 Muswell Hill Broadway.</p>
+                <p>Muswell Hill,</p>
+                <p>London N10 3SH,</p>
+                <p>Uk</p>
+            </section>
+            <section class="footer-section-add-margin vertical-line">
+            </section>
+            <section class="footer-section col1of5 footer-section-add-margin footer-center-vertical">
+                <h3>Opening times:</h3>
+                <p>Sun-Thur 08:00-21:00</p>
+                <p>Fri-Sat 08:00-00:00</p>
+            </section>
+            <section class="footer-section-add-margin vertical-line">
+            </section>
+            <section class="footer-section  col1of5 footer-section-add-margin footer-center-vertical">
+                <h3>Contact:</h3>
+                <p>020 8444 2914</p>
+                <p>customerservice@jdwetherspoon.co.uk</p>
+            </section>
+            <section class="footer-section-add-margin vertical-line">
+            </section>
+            <section class="footer-section  col1of5 footer-section-add-margin footer-center-vertical">
+                <button id="button-book" type="button"><b>BOOK NOW</b></button>
+            </section>
+            <section class="footer-section-add-margin vertical-line">
+            </section>
+            <section class="footer-section col1of5 footer-logos">
+                <a href="http://facebook.com"><img class="social-logo" src="images/facebook2.png"
+                        alt="facebook logo"></a>
+                <a href="http://instagram.com"><img class="social-logo" src="images/insta2.png"
+                        alt="instagram logo"></a>
+                <a href="http://twitter.com"><img class="social-logo" src="images/twitter2.png" alt="twitter logo"></a>
+            </section>
+        </div>
+        <hr class="footer-bar footer-bar2">
+    </footer>
+</body>
+
+</html>

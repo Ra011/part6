@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Raphael Attfield's page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <div id="hamburger" class="hide-large">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="nav-items" class="hide-small">
+                <li><a href="index.html"><i class="fa fa-fw fa-home"></i> <b>Home</b></a></li>
+                <li><a href="about.html"><i class="fa fa-fw fa-address-card"></i> <b>About Us</b></a></li>
+                <li><a href="menu.html"><i class="fa fa-fw fa-book"></i> <b>Menu</b></a></li>
+                <li><a href="bookings.html"><i class="fa fa-fw fa-user"></i> <b>Bookings</b></a></li>
+                <li><a href="whatson.html"><i class="fa fa-fw fa-music"></i> <b>Whats on</b></a></li>
+                <li><a href="#"><i class="fa fa-fw fa-envelope"></i> <b>Contact Us</b></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="background-whatson">
+            <section class="content-box-medium">
+                <h1 class="whatson-header1">Contact Us</h1>
+                <div class="columns">
+                    <section class="col1of2">
+                        <iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9915.06279866089!2d-0.1416317!3d51.5908574!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761a2d2eb0217b%3A0xf8e593914a5e8db7!2sThe%20Mossy%20Well%20-%20JD%20Wetherspoon!5e0!3m2!1sen!2sus!4v1697936943127!5m2!1sen!2sus"
+                            width="500" height="500" style="border:4px solid #D4AF37;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <p>The Village,
+                            258 Muswell Hill Broadway,
+                            Muswell Hill,
+                            London N10 3SH,
+                            Uk</p>
+                    </section>
+
+                    <section class="col1of2">
+                        <section class="contact-send-message">
+                            <!-- <form id="contact-form">
+                                <p>
+                                    <label for="contact-name"> Name:</label>
+                                    <input type="text" id="contact-name" name="contact-name" required />
+                                </p>
+                                <p>
+                                    <label for="contact-email"> Email:</label>
+                                    <input type="text" id="contact-email" required />
+                                </p>
+                                <p>
+                                    <label for="contact-message"> Your message:</label>
+                                    <input type="text" id="contact-message" required />
+                                </p>
+                                <p>
+                                    <button type="submit" id="button-main-area"><b>Send Message</b></button>
+                                </p>
+                            </form> -->
+                            <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="16acfcb3-c65c-42c8-a78c-27cb4daad496" />
+
+                                <p>
+                                    <label for="name">Name:</label>
+                                    <input  type="text" id="name" name="name" required />
+                                </p>
+                                <p>
+                                    <label for="email">Email:</label>
+                                    <input id="email" type="email" name="email" required />
+                                </p>
+                                <p>
+                                    <label for="message">Message:</label>
+                                    <textarea id="message" name="message" required></textarea>
+                                </p>
+                                <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+                                <input type="hidden" name="subject" value="Contact from the Mossy Well Website" />
+                                <input type="hidden" name="from_name" value="My Website" />
+
+                                <p>
+                                    <button type="submit">Submit Form</button>
+                                </p>
+
+                                <p id="result"></p>
+                            </form>
+
+                        </section>
+
+                    </section>
+
+                </div>
+
+            </section>
+        </section>
+    </main>
+
+
+    <footer>
+        <hr class="footer-bar footer-bar1">
+        <hr class="footer-bar footer-bar2">
+        <div class="columns">
+            <section class="footer-section col1of5 footer-section-add-margin footer-center-vertical">
+                <p>The Village,</p>
+                <p>258 Muswell Hill Broadway.</p>
+                <p>Muswell Hill,</p>
+                <p>London N10 3SH,</p>
+                <p>Uk</p>
+            </section>
+            <section class="footer-section-add-margin vertical-line">
+            </section>
+            <section class="footer-section col1of5 footer-section-add-margin footer-center-vertical">
+                <h3>Opening times:</h3>
+                <p>Sun-Thur 08:00-21:00</p>
+                <p>Fri-Sat 08:00-00:00</p>
+            </section>
+            <section class="footer-section-add-margin vertical-line">
+            </section>
+            <section class="footer-section  col1of5 footer-section-add-margin footer-center-vertical">
+                <h3>Contact:</h3>
+                <p>020 8444 2914</p>
+                <p>customerservice@jdwetherspoon.co.uk</p>
+            </section>
+            <section class="footer-section-add-margin vertical-line">
+            </section>
+            <section class="footer-section  col1of5 footer-section-add-margin footer-center-vertical">
+                <button id="button-book" type="button"><b>BOOK NOW</b></button>
+            </section>
+            <section class="footer-section-add-margin vertical-line">
+            </section>
+            <section class="footer-section col1of5 footer-logos">
+                <a href="http://facebook.com"><img class="social-logo" src="images/facebook2.png"
+                        alt="facebook logo"></a>
+                <a href="http://instagram.com"><img class="social-logo" src="images/insta2.png"
+                        alt="instagram logo"></a>
+                <a href="http://twitter.com"><img class="social-logo" src="images/twitter2.png" alt="twitter logo"></a>
+            </section>
+        </div>
+        <hr class="footer-bar footer-bar2">
+    </footer>
+    <script src="contactme.js"></script>
+</body>
+
+</html>

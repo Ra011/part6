@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Darts Night",
+        "date": "21/11/23",
+        "description": "Join us for Darts Night at The Mossy Well! Whether you're a pro or a beginner, enjoy competitive fun, great company, and chances to win prizes while testing your precision and accuracy. Come with friends and have a memorable night at our friendly, spirited event. Don't miss the excitement at The Mossy Well's Darts Night.",
+        "image": "images/darts2.jpg"
+    },
+    {
+        "name": "Cocktails Night",
+        "date": "24/11/23",
+        "description": "Join us for £5 Cocktails Night at The Mossy Well. Enjoy expertly crafted cocktails at wallet-friendly prices. Savor your favorite classics or try unique creations with top-notch ingredients. Elevate your midweek mood without breaking the bank and cheers to good times at The Mossy Well!",
+        "image": "images/cocktails2.jpg"
+    },
+    {
+        "name": "Karaoke Night",
+        "date": "27/11/23",
+        "description": "Join us for Karaoke Night at The Mossy Well, your chance to be a star. Sing your heart out to your favorite tunes, surrounded by an enthusiastic crowd. Whether you're a seasoned performer or just looking for some lighthearted fun, it's an unforgettable evening of music and camaraderie. Bring your friends for a night of memorable performances at The Mossy Well's Karaoke Night.",
+        "image": "images/karaoke2.jpg"
+    },
+    {
+        "name": "Poker Night",
+        "date": "01/12/23",
+        "description": " Join us for Poker Night at The Mossy Well. Whether you're a seasoned player or a novice, it's an evening of Texas Hold'em and poker fun for all. Compete, enjoy friendly banter, and play for great prizes. Grab your friends and get ready to test your poker skills at The Mossy Well's Poker Night. It's a night of strategy and camaraderie you won't want to miss!",
+        "image": "images/poker2.jpg"
+    },
+    {
+        "name": "Snooker Night",
+        "date": "04/12/23",
+        "description": "Join us for Snooker Night at The Mossy Well. All skill levels are welcome to enjoy a night of precision and camaraderie. Cue up, take your shots, and strive for the perfect break. Bring your friends for an eveningof skilled gameplay and friendly competition. Don't miss the chance to enjoySnooker Night at The Mossy Well!",
+        "image": "images/snooker.jpg"
+    },
+    {
+        "name": "Pub Quiz",
+        "date": "08/12/23",
+        "description": "Join us for Pub Quiz Night at The Mossy Well, a battle of wits with friends old and new. Test your knowledge on a variety of topics, enjoy great food and drinks, and compete for fantastic prizes. Get ready for an unforgettable night of trivia and fun!",
+        "image": "images/quiz.png"
+    }
+]
